@@ -1,6 +1,6 @@
-#include<iostream>
+#include<iostream.h>
+#unclude<conio.h>
 using namespace std;
-
 int main()
 {
 int x[2][3][2] =
