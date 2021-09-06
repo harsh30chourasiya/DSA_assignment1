@@ -2,14 +2,9 @@
 #inlude <conio.h>
 using namespace std;
 int main()
-{
-  const char *_SemIII_Subjects[7] = {"DSA", "Web Development", "Unix and Shell", "Application Development", "Cloud Computing", "Data Communication", "Discrete Mathematics"};
-  cout << "\nThe Subjects Are:\n";
-
-  for (int i=0; i<7; ++i)
-  {
-    cout << _SemIII_Subjects[i] << "\n";
-  }
-
-    return 0;
+{const char *_SemIII_Subjects[7] = {"DSA", "Web Development", "Unix and Shell", "Application Development", "Cloud Computing", "Data Communication", "Discrete Mathematics"};
+cout << "\nThe Subjects Are:\n";
+for (int i=0; i<7; ++i)
+{cout << _SemIII_Subjects[i] << "\n";}
+return 0;
 }
